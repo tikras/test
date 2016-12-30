@@ -1,0 +1,7 @@
+userBucket:
+    path: default
+---
+spring:
+  profiles: dev
+userBucket:
+    path: dev

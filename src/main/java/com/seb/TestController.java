@@ -14,8 +14,8 @@ public class TestController {
     @Value("${userBucket.path}")
     private String userBucketPath;
 
-    @RequestMapping(value = "/greeting", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String greeting(@RequestParam(value="name", defaultValue="World") String name) {
-        return "Hi";
+9        return "Hi";
     }
 }

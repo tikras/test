@@ -16,6 +16,6 @@ public class TestController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String greeting(@RequestParam(value="name", defaultValue="World") String name) {
-9        return "Hi";
+        return "Hi";
     }
 }
